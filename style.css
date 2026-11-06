@@ -1,0 +1,91 @@
+body {
+    margin: 0; /* Прибираємо зовнішні відступи браузера */
+    font-family: Arial, sans-serif; /* Встановлюємо шрифт */
+    color: black; /* Колір тексту */
+    background-color:darkorange;
+}
+
+/* Меню сайту */
+nav {
+    background-color: gold; /* Колір фону меню */
+    padding: 25px; /* Внутрішні відступи */
+    text-align: center; /* Вирівнюємо посилання по центру */
+}
+
+nav a {
+    margin: 15px; /* Відстань навколо посилань */
+    color: black; /* Колір тексту посилань */
+    text-decoration: none; /* Прибираємо підкреслення */
+    background-color:yellow;
+    border:5px solid black;
+    padding:10px;
+}
+
+/* Головний заголовок */
+header {
+    background-color: gold; /* Колір фону головного блоку */
+    text-align: center; /* Вирівнюємо вміст по центру */
+    padding: 60px 20px; /* Відступи: зверху/знизу та з боків */
+}
+
+h1 {
+    font-size: 48px; /* Розмір головного заголовка */
+}
+
+/* Загальні налаштування розділів */
+section {
+    padding: 40px 20px; /* Внутрішні відступи розділів */
+    text-align: center; /* Вирівнюємо вміст по центру */
+}
+
+h2 {
+    font-size: 32px; /* Розмір заголовків розділів */
+}
+
+/* Розташування карток товарів */
+.products {
+    border:5px solid black;
+    background:gold;
+    display: flex; /* Розміщуємо картки в ряд */
+    justify-content: center; /* Вирівнюємо картки по центру */
+    flex-wrap: wrap; /* Переносимо картки на новий рядок */
+    gap: 25px; /* Відстань між картками */
+}
+
+/* Одна картка товару */
+.product {
+    border:2.5px solid black;
+    background-color:orange;
+    width: 280px; /* Ширина картки товару */
+}
+
+/* Фотографії товарів */
+.product img {
+    width: 100%; /* Зображення займає всю ширину картки */
+    height: 220px; /* Встановлюємо висоту зображення */
+    object-fit: cover; /* Заповнюємо блок без спотворення пропорцій */
+}
+
+/* Фотографії відгуків */
+.review img {
+    width: 150px; /* Ширина фотографії */
+    height: 150px; /* Висота фотографії */
+    border-radius: 50%; /* Робимо фотографію круглою */
+    object-fit: cover; /* Зберігаємо пропорції зображення */
+    border:5px solid black;
+}
+
+/* Карта або зображення місця */
+.map img {
+    width: 100%; /* Зображення займає доступну ширину */
+    max-width: 600px;/* Обмежуємо максимальну ширину */
+    border:5px solid black;
+}
+
+/* Нижня частина сайту */
+footer {
+    background-color: gold; /* Колір фону футера */
+    padding: 30px; /* Внутрішні відступи */
+    text-align: center; /* Вирівнюємо вміст по центру */
+}
+
