@@ -9,7 +9,7 @@ body {
 nav {
     background-color: gold; /* Колір фону меню */
     padding: 25px; /* Внутрішні відступи */
-    text-align: center; /* Вирівнюємо посилання по центру */
+    text-align: center; 
 }
 
 nav a {
