@@ -1,7 +1,7 @@
 body {
     margin: 0; /* Прибираємо зовнішні відступи браузера */
     font-family: Arial, sans-serif; /* Встановлюємо шрифт */
-    color: black; /* Колір тексту */
+    color: white; /* Колір тексту */
     background-color:darkorange;
 }
 
